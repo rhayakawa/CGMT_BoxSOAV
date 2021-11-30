@@ -7,7 +7,7 @@
 %   Ryo Hayakawa and Kazunori Hayashi,
 %   "Asymptotic performance of discrete-valued vector reconstruction 
 %    via box-constrained optimization with sum of l1 regularizers,"
-%   IEEE Transactions on Signal Processing, vol. XX, no. XX, pp. XX-XX, 2020. 
+%   IEEE Transactions on Signal Processing, vol. 68, pp. 4320-4335, 2020. 
 %%--------------------------------------------------------------------------------------------
 
 
