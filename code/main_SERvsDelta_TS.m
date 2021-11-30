@@ -88,7 +88,7 @@ for DeltaIndex=1:length(arrDelta)
   arrThr=[-Inf kappa2 -kappa2 Inf];
 
   [MSE,SER]=get_empirical(N,Delta,arrP,arrR,arrQ,arrThr,SNR,nIteration,nSample);
-  [MSE_SOAV,SER_SOAV]=get_empirical_noBOX(N,Delta,arrP,arrR,arrQ,arrThr,SNR,nIteration,nSample);
+  [MSE_SOAV,SER_SOAV]=get_empirical_noBox(N,Delta,arrP,arrR,arrQ,arrThr,SNR,nIteration,nSample);
   [MSE_BOX,SER_BOX]=get_empirical(N,Delta,arrP,arrR,zeros(1,4),arrThr_naive,SNR,nIteration,nSample);
 
   arrSER_empi(DeltaIndex)=SER;

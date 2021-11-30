@@ -18,7 +18,7 @@ function [MSE,SER]=get_empirical_noBox(N,Delta,arrP,arrR,arrQ,arrThr,SNR,nIterat
 
 
   % add path
-  addpath subfunctions;
+  addpath('subfunctions');
 
   % number of measurements 
   M=round(N*Delta);
